@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  color: #a4a4a4;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #efefef;
+}

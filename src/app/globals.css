@@ -2,18 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: rgb(251, 249, 245);
-  --primary: #2d2323;
-}
-
 html {
   font-size: 16px;
 }
 
 body {
-  color: var(--primary);
-  background-color: var(--background);
+  @apply bg-secondary text-primary;
+}
+
+a:hover {
+  @apply text-accent1;
 }
 
 @layer utilities {

@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Dmitry Smirnov",
-  description: "Senior Frontend Developer",
+  title: "Dmitry Smirnov | Senior Frontend Developer",
+  description:
+    "I am a dedicated Frontend Engineer with over 7 years of experience in building high-performance web applications",
 };
 
 export default function Home() {

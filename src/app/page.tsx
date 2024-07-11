@@ -1,5 +1,11 @@
 import { Card } from "@/components/Card";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dmitry Smirnov",
+  description: "Senior Frontend Developer",
+};
 
 export default function Home() {
   return (

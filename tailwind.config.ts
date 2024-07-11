@@ -13,6 +13,7 @@ const config: Config = {
         secondary: "#fbf9f5",
         accent: "#ced0f5",
         accent1: "#f5c15c",
+        accent2: "#fec9c3",
       },
     },
   },

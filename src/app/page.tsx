@@ -1,6 +1,6 @@
-import { Card } from "@/components/Card";
 import Image from "next/image";
 import { Metadata } from "next";
+import { Card } from "@/components/ui/Card";
 
 export const metadata: Metadata = {
   title: "Dmitry Smirnov | Senior Frontend Developer",
@@ -39,7 +39,8 @@ export default function Home() {
               <span className="font-semibold">React</span>,{" "}
               <span className="font-semibold">Next.js</span>,{" "}
               <span className="font-semibold">Node.js</span>, and a variety of
-              other modern web technologies.
+              other modern web technologies. I am open to new opportunities and
+              collaborations. Feel free to contact me!
             </p>
           </>
         </Card>
@@ -52,6 +53,13 @@ export default function Home() {
           </a>
           <span className="ml-auto">🚀</span>
         </div>
+        <a
+          className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary rounded-3xl mt-4"
+          href="mailto:d.smirnov.inbox@gmail.com"
+        >
+          Sent an email
+          <span className="ml-2">✍</span>
+        </a>
       </div>
     </main>
   );

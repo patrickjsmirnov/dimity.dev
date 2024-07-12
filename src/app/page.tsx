@@ -44,12 +44,18 @@ export default function Home() {
             </p>
           </>
         </Card>
-        <div className="flex w-full mt-4 gap-6 bg-white py-6 px-8 rounded-[40px]">
+        <div className="flex flex-wrap w-full mt-4 gap-6 bg-white py-6 px-8 rounded-[40px]">
           <a href="https://www.linkedin.com/in/dmitry-smirnov/" target="_blank">
             Linkedin
           </a>
           <a href="https://github.com/patrickjsmirnov" target="_blank">
             Github
+          </a>
+          <a
+            href="https://drive.google.com/file/d/1QL8QTkJKXnPicaBFmpuWUTPSOQCpIqwT/view"
+            target="_blank"
+          >
+            CV
           </a>
           <span className="ml-auto">🚀</span>
         </div>

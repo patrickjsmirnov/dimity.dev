@@ -57,7 +57,7 @@ export default function Home() {
           className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary rounded-3xl mt-4"
           href="mailto:d.smirnov.inbox@gmail.com"
         >
-          Sent an email
+          Send an email
           <span className="ml-2">✍</span>
         </a>
       </div>

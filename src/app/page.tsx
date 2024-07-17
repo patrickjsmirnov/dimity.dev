@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center p-4">
-      <div className="flex flex-col items-center max-w-[670px]">
+    <main className="flex flex-col items-center">
+      <div className="flex flex-col items-center max-w-[678px]">
         <Card>
           <>
             <div className="flex flex-col md:flex-row items-center mb-6">
@@ -44,21 +44,7 @@ export default function Home() {
             </p>
           </>
         </Card>
-        <div className="flex flex-wrap w-full mt-4 gap-6 bg-white py-6 px-8 rounded-[40px]">
-          <a href="https://www.linkedin.com/in/dmitry-smirnov/" target="_blank">
-            Linkedin
-          </a>
-          <a href="https://github.com/patrickjsmirnov" target="_blank">
-            Github
-          </a>
-          <a
-            href="https://drive.google.com/file/d/1QL8QTkJKXnPicaBFmpuWUTPSOQCpIqwT/view"
-            target="_blank"
-          >
-            CV
-          </a>
-          <span className="ml-auto">🚀</span>
-        </div>
+
         <a
           className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary rounded-3xl mt-4"
           href="mailto:d.smirnov.inbox@gmail.com"

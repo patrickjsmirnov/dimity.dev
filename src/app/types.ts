@@ -5,4 +5,5 @@ export interface JobExperienceItem {
   position: string;
   period: string;
   jobAchievements: string[];
+  techStack: string[];
 }

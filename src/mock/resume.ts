@@ -17,6 +17,7 @@ export const JOB_EXPERIENCE: JobExperienceItem[] = [
       "Developed an ESLint config used across multiple projects, improving code quality and consistency.",
       "Implemented Feature-Sliced Design methodology to enhance code modularity and maintainability.",
     ],
+    techStack: ["TypeScript", "React", "Next.js", "Storybook"],
   },
   {
     companyName: "Teamatix",
@@ -34,6 +35,14 @@ export const JOB_EXPERIENCE: JobExperienceItem[] = [
       "Developed a mobile application using React Native, mirroring the functionality of the Teamatix.io SPA to enhance mobile user engagement.",
       "Contributed to the interviewing and onboarding processes for new team members.",
     ],
+    techStack: [
+      "TypeScript",
+      "React",
+      "React Native",
+      "Node.js",
+      "Redux",
+      "RxJS",
+    ],
   },
   {
     companyName: "Apptica",
@@ -50,6 +59,7 @@ export const JOB_EXPERIENCE: JobExperienceItem[] = [
       "Upgraded React from version 15 to 16 and Webpack from version 3 to 4, enabling the use of new features and enhancing maintainability.",
       "Developed email newsletters and landing pages, enhancing user engagement and supporting various marketing initiatives.",
     ],
+    techStack: [],
   },
   {
     companyName: "Mygento eCommerce Solutions",
@@ -63,5 +73,6 @@ export const JOB_EXPERIENCE: JobExperienceItem[] = [
       "Utilized a diverse technology stack including Magento (1 & 2), JavaScript, jQuery, Sass, Node.js, Gulp, and Jekyll to deliver high-quality web applications.",
       "Maintained and updated several e-commerce projects, ensuring their continuous operation and relevance.",
     ],
+    techStack: [],
   },
 ];

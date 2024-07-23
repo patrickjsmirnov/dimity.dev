@@ -32,12 +32,6 @@ export default function RootLayout({
             <a href="https://github.com/patrickjsmirnov" target="_blank">
               Github
             </a>
-            {/* <a
-              href="https://drive.google.com/file/d/1QL8QTkJKXnPicaBFmpuWUTPSOQCpIqwT/view"
-              target="_blank"
-            >
-              CV
-            </a> */}
             <Link href="/resume">Resume</Link>
           </div>
         </div>

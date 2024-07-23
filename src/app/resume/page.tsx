@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <main className="flex flex-col items-center p-4 max-w-[670px] mx-auto gap-y-8">
+      <a
+        className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary rounded-3xl mt-4"
+        href="https://drive.google.com/file/d/1QL8QTkJKXnPicaBFmpuWUTPSOQCpIqwT/view"
+        target="_blank"
+      >
+        Download
+        <span className="ml-2">💾</span>
+      </a>
       <JobExperiencesList jobExperience={JOB_EXPERIENCE} />
       <div className="flex flex-col w-full">
         <h2 className="text-2xl font-semibold mb-2">Education</h2>

@@ -1,8 +1,9 @@
 import { FC } from "react";
 
 import { JobExperienceItem } from "@/app/types";
-import { JobAchievementsList } from "@/components/JobAchievementsList";
-import { Chip } from "@/components/ui/Chip";
+
+import { JobAchievementsList } from "../JobAchievementsList";
+import { TechStackList } from "../TechStackList";
 
 interface Props {
   jobExperience: JobExperienceItem;
@@ -30,13 +31,7 @@ export const JobExperiencesListItem: FC<Props> = (props) => {
         — <span className="italic">{period}</span>
       </div>
       <JobAchievementsList achievements={jobAchievements} />
-      <ul className="flex gap-2 py-4 pl-4">
-        {techStack.map((tech) => (
-          <li key={tech}>
-            <Chip label={tech} />
-          </li>
-        ))}
-      </ul>
+      <TechStackList techStack={techStack} />
     </li>
   );
 };

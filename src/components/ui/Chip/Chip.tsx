@@ -12,7 +12,7 @@ export const Chip: FC<ChipProps> = (props) => {
   return (
     <div
       className={twMerge(
-        "py-1 px-3 bg-accent1 text-white text-sm rounded-3xl",
+        "py-1 px-3 bg-accent4 text-primary font-medium text-sm rounded-3xl",
         className
       )}
     >

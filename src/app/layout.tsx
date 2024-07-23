@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
 import Link from "next/link";
 import { twMerge } from "tailwind-merge";
+
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,7 @@ export default function RootLayout({
             <Link href="/">🚀</Link>
             <a
               className="ml-auto"
-              href="https://www.linkedin.com/in/dmitry-smirnov/"
+              href="https://www.linkedin.com/in/dmitry-smirnov"
               target="_blank"
             >
               Linkedin

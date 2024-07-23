@@ -1,17 +1,17 @@
 import { FC } from "react";
 
-import { JobExperienceItem } from "@/app/types";
+import { ResumeJob } from "@/app/types";
 
 import { JobAchievementsList } from "../JobAchievementsList";
 import { TechStackList } from "../TechStackList";
 
 interface Props {
-  jobExperience: JobExperienceItem;
+  resumeJob: ResumeJob;
   className?: string;
 }
 
-export const JobExperiencesListItem: FC<Props> = (props) => {
-  const { jobExperience, className } = props;
+export const ResumeJobsListItem: FC<Props> = (props) => {
+  const { resumeJob, className } = props;
   const {
     position,
     companyLink,
@@ -19,7 +19,7 @@ export const JobExperiencesListItem: FC<Props> = (props) => {
     period,
     jobAchievements,
     techStack,
-  } = jobExperience;
+  } = resumeJob;
 
   return (
     <li className={className}>

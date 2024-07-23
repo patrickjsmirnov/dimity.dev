@@ -1,6 +1,6 @@
-import { JobExperienceItem } from "@/app/types";
+import { ResumeEducation, ResumeJob } from "@/app/types";
 
-export const JOB_EXPERIENCE: JobExperienceItem[] = [
+export const RESUME_JOBS: ResumeJob[] = [
   {
     companyName: "Material Bank®",
     companyLink: "https://materialbank.com",
@@ -100,5 +100,18 @@ export const JOB_EXPERIENCE: JobExperienceItem[] = [
       "Jekyll",
       "Magento",
     ],
+  },
+];
+
+export const RESUME_EDUCATIONS: ResumeEducation[] = [
+  {
+    place: "Saint Petersburg State University",
+    period: "2015 - 2017",
+    degree: "Master’s degree in Applied Mathematics and Computer Science",
+  },
+  {
+    place: "Saint Petersburg State University",
+    period: "2011 - 2015",
+    degree: "Bachelor’s degree in Applied Mathematics and Computer Science",
   },
 ];

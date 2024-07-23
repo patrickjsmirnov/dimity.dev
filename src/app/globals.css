@@ -14,10 +14,6 @@ a:hover {
   @apply text-accent1;
 }
 
-h1 {
-  @apply text-4xl font-bold text-gray-900;
-}
-
 p {
   @apply mb-2;
 }

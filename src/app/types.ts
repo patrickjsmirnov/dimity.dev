@@ -1,4 +1,4 @@
-export interface JobExperienceItem {
+export interface ResumeJob {
   companyName: string;
   companyDescription: string;
   companyLink: string;
@@ -6,4 +6,10 @@ export interface JobExperienceItem {
   period: string;
   jobAchievements: string[];
   techStack: string[];
+}
+
+export interface ResumeEducation {
+  place: string;
+  period: string;
+  degree: string;
 }

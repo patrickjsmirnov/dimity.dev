@@ -14,6 +14,10 @@ a:hover {
   @apply text-accent1;
 }
 
+p {
+  @apply mb-2;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

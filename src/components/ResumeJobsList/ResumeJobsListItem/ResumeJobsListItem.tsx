@@ -1,10 +1,10 @@
 import { FC } from "react";
-import Image from "next/image";
 
 import { ResumeJob } from "@/app/types";
 
 import { JobAchievementsList } from "../JobAchievementsList";
 import { TechStackList } from "../TechStackList";
+import { ExternalLinkIcon } from "@/components/icons";
 
 interface Props {
   resumeJob: ResumeJob;
@@ -28,16 +28,11 @@ export const ResumeJobsListItem: FC<Props> = (props) => {
       <div className="flex flex-wrap gap-1 mb-2">
         <a
           target="_blank"
-          className=" flex gap-1 font-semibold"
+          className=" flex items-center gap-1 font-semibold"
           href={companyLink}
         >
           {companyName}
-          <Image
-            src="./external-link.svg"
-            width={18}
-            height={18}
-            alt="external link icon"
-          />
+          <ExternalLinkIcon width={18} height={18} />
         </a>{" "}
         — <span className="italic">{period}</span>
       </div>

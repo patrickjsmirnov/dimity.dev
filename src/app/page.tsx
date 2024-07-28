@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Metadata } from "next";
+
 import { Card } from "@/components/ui/Card";
 
 export const metadata: Metadata = {
@@ -46,7 +47,7 @@ export default function Home() {
         </Card>
 
         <a
-          className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary rounded-3xl mt-4"
+          className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary hover:bg-accent2-dark rounded-3xl mt-4"
           href="mailto:d.smirnov.inbox@gmail.com"
         >
           Send an email

@@ -37,6 +37,9 @@ export default function RootLayout({
           </div>
         </div>
         <div className="pt-[104px] px-4 pb-4">{children}</div>
+        <footer className="py-12">
+          © {new Date().getFullYear()} Dmitry Smirnov.
+        </footer>
       </body>
     </html>
   );

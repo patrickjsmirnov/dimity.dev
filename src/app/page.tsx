@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 import { Card } from "@/components/ui/Card";
+import { TECH_GROUPS } from "@/mock/common";
 
 export const metadata: Metadata = {
   title: "Dmitry Smirnov | Senior Frontend Developer",
@@ -45,7 +46,6 @@ export default function Home() {
             </p>
           </>
         </Card>
-
         <a
           className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary hover:bg-accent2-dark rounded-3xl mt-4"
           href="mailto:d.smirnov.inbox@gmail.com"
@@ -53,6 +53,18 @@ export default function Home() {
           Send an email
           <span className="ml-2">✍</span>
         </a>
+        <div className="w-full mt-4">
+          <p>
+            Here are some of the technologies and tools I have experience with:
+          </p>
+          <ul>
+            {TECH_GROUPS.map(([techGroup, techStack]) => (
+              <li key={techGroup} className="mb-1">
+                <span className="font-semibold">{techGroup}:</span> {techStack}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </main>
   );

@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  transition: all 0.3s ease;
+a {
+  transition: all 300ms ease;
 }
 
 html {

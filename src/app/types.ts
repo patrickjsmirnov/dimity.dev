@@ -13,3 +13,9 @@ export interface ResumeEducation {
   period: string;
   degree: string;
 }
+
+export enum PageUrl {
+  RESUME = "/resume",
+  PORTFOLIO = "/portfolio",
+  PORTFOLIO_TEAMATIX = "/portfolio/teamatix",
+}

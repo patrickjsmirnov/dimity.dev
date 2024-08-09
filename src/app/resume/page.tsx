@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Resume() {
   return (
-    <main className="flex flex-col items-center p-4 max-w-[670px] mx-auto gap-y-8">
+    <main className="flex flex-col items-center p-4 mx-auto gap-y-8">
       <a
         className="w-full bg-accent2 text-center py-3 font-bold hover:text-primary hover:bg-accent2-dark rounded-3xl mt-4"
         href="https://drive.google.com/file/d/1QL8QTkJKXnPicaBFmpuWUTPSOQCpIqwT/view"

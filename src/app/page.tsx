@@ -53,7 +53,7 @@ export default function Home() {
           Send an email
           <span className="ml-2">✍</span>
         </a>
-        <div className="w-full mt-4">
+        {/* <div className="w-full mt-4">
           <p>
             Here are some of the technologies and tools I have experience with:
           </p>
@@ -64,7 +64,7 @@ export default function Home() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
       </div>
     </main>
   );

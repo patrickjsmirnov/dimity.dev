@@ -6,12 +6,13 @@ a {
   transition: all 300ms ease;
 }
 
-html {
-  font-size: 16px;
-}
-
+html,
 body {
+  font-size: 16px;
   @apply bg-secondary text-primary;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 a:hover {

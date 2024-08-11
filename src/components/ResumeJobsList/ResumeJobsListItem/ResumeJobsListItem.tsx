@@ -28,7 +28,7 @@ export const ResumeJobsListItem: FC<Props> = (props) => {
       <div className="flex flex-wrap gap-1 mb-2">
         <a
           target="_blank"
-          className=" flex items-center gap-1 font-semibold"
+          className="flex items-center gap-1 font-semibold"
           href={companyLink}
         >
           {companyName}

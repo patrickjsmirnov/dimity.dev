@@ -1,5 +1,7 @@
 import { Metadata } from "next";
-import { PageUrl } from "../types";
+
+import { PageUrl, portfolioProjects } from "@/lib";
+import { PortfolioProjectsList } from "@/components/PortfolioProjectsList";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -7,34 +9,28 @@ export const metadata: Metadata = {
   description: "Portfolio",
 };
 
-const companies = [
+const projects = [
   {
     name: "Material Bank",
-    link: "#",
+    url: PageUrl.PORTFOLIO_MATERIAL_BANK,
   },
   {
     name: "Teamatix",
-    link: PageUrl.PORTFOLIO_TEAMATIX,
+    url: PageUrl.PORTFOLIO_TEAMATIX,
   },
   {
     name: "Apptica",
-    link: "#",
-  },
-  {
-    name: "Mygento",
-    link: "#",
+    url: PageUrl.PORTFOLIO_APPTICA,
   },
 ];
 
 export default function Portfolio() {
   return (
     <main className="flex flex-col items-center">
-      <ul className="flex flex-col gap-8 text-center pt-16">
-        {companies.map((company) => (
-          <li key={company.name}>
-            <Link className="text-6xl" href={company.link}>
-              {company.name}
-            </Link>
+      <ul className="flex flex-col gap-6 text-6xl text-center mt-6">
+        {projects.map((project) => (
+          <li key={project.name}>
+            <Link href={project.url}>{project.name}</Link>
           </li>
         ))}
       </ul>

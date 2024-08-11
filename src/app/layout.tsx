@@ -4,7 +4,7 @@ import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 
 import "./globals.css";
-import { PageUrl } from "./types";
+import { PageUrl } from "../lib/pages";
 
 const inter = Inter({ subsets: ["latin"] });
 

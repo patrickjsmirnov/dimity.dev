@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 import { Card } from "@/components/ui/Card";
-import { TECH_GROUPS } from "@/mock/common";
 
 export const metadata: Metadata = {
   title: "Dmitry Smirnov | Senior Frontend Developer",
